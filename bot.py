@@ -15,8 +15,8 @@ from telegram.ext import (
 # ─────────────────────────────────────────────
 #  НАСТРОЙКИ — ЗАПОЛНИ ЭТИ ДВА ПОЛЯ
 # ─────────────────────────────────────────────
-BOT_TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"        # Вставь токен от @BotFather
-ADMIN_CHAT_ID = "ВАШ_ID_ЗДЕСЬ"       # Вставь свой числовой ID от @userinfobot
+BOT_TOKEN = "8704701412:AAGeAAllxQORN71IJXeslQZSPPY1EG1JHdQ"        # Вставь токен от @BotFather
+ADMIN_CHAT_ID = "1689805437"       # Вставь свой числовой ID от @userinfobot
 
 # Путь к файлу с ответами (создаётся автоматически)
 ANSWERS_FILE = "answers.txt"
@@ -34,7 +34,7 @@ ANSWERS_FILE = "answers.txt"
     B6_REQUEST, B6_RESULT, B6_FEARS, B6_FORMAT,
     B7_PHOTOS_SELF, B7_PHOTOS_STYLE, B7_PHOTOS_NO,
     DONE
-) = range(36)
+) = range(37)
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
